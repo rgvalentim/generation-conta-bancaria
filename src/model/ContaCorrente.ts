@@ -1,4 +1,3 @@
-import { log } from "console";
 import { Conta } from "./Conta";
 
 export class ContaCorrente extends Conta {
