@@ -96,7 +96,7 @@ export class ContaController implements ContaRepository{
    //Métodos auxiliares
    //Gerar numero da conta
    public gerarNumero(): number{
-      return ++ this.numero;
+      return ++this.numero;
    }
 
    //Checa se a conta existe

@@ -21,6 +21,7 @@ export class ContaCorrente extends Conta {
    }
 
    //métodos específicos
+   //Polimorfismo
    public sacar(valor: number): boolean {
       if((this.saldo + this.limite) < valor) {
          console.log("\nSaldo insuficiente!");
